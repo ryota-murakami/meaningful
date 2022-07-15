@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import './ComponentTreeViewApp.css'
 import logo from '../logo.svg'
 
 const ComponentTreeViewApp: React.FC = () => {
-
   // useDidUpdateEffect(() => {
   //   store.dispatch(
   //     enqueSnackbar({
@@ -17,7 +16,7 @@ const ComponentTreeViewApp: React.FC = () => {
 
   return (
     <>
-      <header className="App-header">
+      <header>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>main</main>
