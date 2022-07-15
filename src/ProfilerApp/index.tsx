@@ -11,7 +11,6 @@ const ProfilerApp: React.FC = () => {
       <Invisible_NotifySpaceContainer>
         <SnackBarSystem />
       </Invisible_NotifySpaceContainer>
-      <div className="h-full"></div>
     </Provider>
   )
 }

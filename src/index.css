@@ -10,10 +10,6 @@ body {
   height: 100%;
 }
 
-#profiler-app-root {
-  height: 40px;
-}
-
 #component-tree-app-root {
   height: 100%;
 }
