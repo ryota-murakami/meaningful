@@ -1,6 +1,7 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
-import './ComponentTreeViewApp.css'
+import './index.css'
 import logo from '../logo.svg'
 
 const ComponentTreeViewApp: React.FC = () => {
@@ -15,13 +16,13 @@ const ComponentTreeViewApp: React.FC = () => {
   // })
 
   return (
-    <>
+    <BrowserRouter>
       <header>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>main</main>
       <footer>footer</footer>
-    </>
+    </BrowserRouter>
   )
 }
 
