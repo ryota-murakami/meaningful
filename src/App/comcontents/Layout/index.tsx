@@ -1,7 +1,8 @@
-import React from 'react'
+import type { ComponentProps } from 'react'
+import React, { memo } from 'react'
 
-const Layout: React.FC = () => {
-  return <main>Layout</main>
+const Layout: React.FC<ComponentProps<any>> = ({ children }) => {
+  return <main>{children}</main>
 }
 
-export default Layout
+export default memo(Layout)
