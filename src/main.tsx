@@ -10,7 +10,7 @@ const profilerRoot = ReactDOM.createRoot(
 )
 
 const componentTreeRoot = ReactDOM.createRoot(
-  document.getElementById('component-tree-app-root')!
+  document.getElementById('app-root')!
 )
 
 profilerRoot.render(<ProfilerApp />)
