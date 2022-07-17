@@ -1,10 +1,10 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css'
-import logo from '../logo.svg'
+import Index from './pages/Index'
 
-const ComponentTreeViewApp: React.FC = () => {
+const App: React.FC = () => {
   // useDidUpdateEffect(() => {
   //   store.dispatch(
   //     enqueSnackbar({
@@ -17,13 +17,11 @@ const ComponentTreeViewApp: React.FC = () => {
 
   return (
     <BrowserRouter>
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <main>main</main>
-      <footer>footer</footer>
+      <Routes>
+        <Route path="/" element={<Index />}></Route>
+      </Routes>
     </BrowserRouter>
   )
 }
 
-export default ComponentTreeViewApp
+export default App

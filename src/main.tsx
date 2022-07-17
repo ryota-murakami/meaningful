@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css'
-import ComponentTreeViewApp from './ComponentTreeViewApp'
+import App from './App'
 import ProfilerApp from './ProfilerApp'
 
 const profilerRoot = ReactDOM.createRoot(
@@ -14,4 +14,4 @@ const componentTreeRoot = ReactDOM.createRoot(
 )
 
 profilerRoot.render(<ProfilerApp />)
-componentTreeRoot.render(<ComponentTreeViewApp />)
+componentTreeRoot.render(<App />)
