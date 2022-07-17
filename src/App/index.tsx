@@ -5,16 +5,6 @@ import './index.css'
 import Index from './pages/Index'
 
 const App: React.FC = () => {
-  // useDidUpdateEffect(() => {
-  //   store.dispatch(
-  //     enqueSnackbar({
-  //       componentName: 'ComponentTreeViewApp',
-  //       message: 'Rerendered!!',
-  //       variant: 'primary',
-  //     })
-  //   )
-  // })
-
   return (
     <BrowserRouter>
       <Routes>
