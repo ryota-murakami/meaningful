@@ -1,8 +1,18 @@
 import type { ComponentProps } from 'react'
 import React, { memo } from 'react'
 
-const Layout: React.FC<ComponentProps<any>> = ({ children }) => {
-  return <main>{children}</main>
-}
+import Footer from './Footer'
+import Header from './Header'
 
-export default memo(Layout)
+const Layout: React.FC<ComponentProps<any>> = memo(({ children }) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  )
+})
+Layout.displayName = 'Layout'
+
+export default Layout
