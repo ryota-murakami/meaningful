@@ -11,7 +11,7 @@ body {
   background-color: #282c34;
 }
 
-#component-tree-app-root {
+#app-root {
   height: 100%;
 }
 

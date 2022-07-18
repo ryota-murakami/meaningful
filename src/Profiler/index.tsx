@@ -5,7 +5,7 @@ import Invisible_NotifySpaceContainer from './Invisible_NotifySpaceContainer'
 import { store } from './redux/store'
 import SnackBarSystem from './SnackBarSystem'
 
-const ProfilerApp: React.FC = () => {
+const Profiler: React.FC = () => {
   return (
     <Provider store={store}>
       <Invisible_NotifySpaceContainer>
@@ -15,4 +15,4 @@ const ProfilerApp: React.FC = () => {
   )
 }
 
-export default ProfilerApp
+export default Profiler

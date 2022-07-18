@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client'
 
 import './index.css'
 import App from './App'
-import ProfilerApp from './ProfilerApp'
+import Profiler from './Profiler'
 
 const profilerRoot = ReactDOM.createRoot(
-  document.getElementById('profiler-app-root')!
+  document.getElementById('profiler-root')!
 )
 
 const componentTreeRoot = ReactDOM.createRoot(
   document.getElementById('app-root')!
 )
 
-profilerRoot.render(<ProfilerApp />)
+profilerRoot.render(<Profiler />)
 componentTreeRoot.render(<App />)

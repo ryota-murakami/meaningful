@@ -1,6 +1,6 @@
-import { enqueSnackbar } from '../ProfilerApp/redux/snackbarSlice'
-import type { SnackBarMessage } from '../ProfilerApp/redux/snackbarSlice'
-import { store } from '../ProfilerApp/redux/store'
+import { enqueSnackbar } from '../Profiler/redux/snackbarSlice'
+import type { SnackBarMessage } from '../Profiler/redux/snackbarSlice'
+import { store } from '../Profiler/redux/store'
 
 import useDidUpdateEffect from './useDidUpdateEffect'
 
