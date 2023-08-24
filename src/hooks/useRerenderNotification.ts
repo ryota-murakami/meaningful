@@ -7,7 +7,7 @@ import useDidUpdateEffect from './useDidUpdateEffect'
 function useRerenderNotification(
   componentName: SnackBarMessage['componentName'],
   message: SnackBarMessage['message'],
-  variant: SnackBarMessage['variant']
+  variant: SnackBarMessage['variant'],
 ) {
   useDidUpdateEffect(() => {
     store.dispatch(
@@ -15,7 +15,7 @@ function useRerenderNotification(
         componentName: componentName,
         message: message,
         variant: variant,
-      })
+      }),
     )
   })
 }

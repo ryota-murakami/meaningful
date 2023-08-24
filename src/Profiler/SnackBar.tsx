@@ -1,6 +1,6 @@
 import { Transition } from '@headlessui/react'
-import { CheckCircleIcon } from '@heroicons/react/outline'
-import { XIcon } from '@heroicons/react/solid'
+import { CheckCircleIcon } from '@heroicons/react/24/outline'
+import { XMarkIcon } from '@heroicons/react/24/solid'
 import React, { Fragment, useState } from 'react'
 
 import type { SnackBarMessage } from './redux/snackbarSlice'
@@ -56,7 +56,7 @@ const SnackBar: React.FC<Props> = ({ message, componentName }) => {
                 }}
               >
                 <span className="sr-only">Close</span>
-                <XIcon className="w-5 h-5" aria-hidden="true" />
+                <XMarkIcon className="w-5 h-5" aria-hidden="true" />
               </button>
             </div>
           </div>

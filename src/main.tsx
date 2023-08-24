@@ -6,11 +6,11 @@ import App from './App'
 import Profiler from './Profiler'
 
 const profilerRoot = ReactDOM.createRoot(
-  document.getElementById('profiler-root')!
+  document.getElementById('profiler-root')!,
 )
 
 const componentTreeRoot = ReactDOM.createRoot(
-  document.getElementById('app-root')!
+  document.getElementById('app-root')!,
 )
 
 profilerRoot.render(<Profiler />)

@@ -44,7 +44,7 @@ export const snackbarSlice = createSlice({
 })
 
 export const selectMessageQueue = (
-  state: RootState
+  state: RootState,
 ): SnackBarState['snackbarQueue'] => state.snackbar.snackbarQueue
 
 export const { enqueSnackbar, dequeSnackbar } = snackbarSlice.actions

@@ -11,7 +11,7 @@ const Index: React.FC = memo(() => {
       componentName: '<Index />',
       message: 'render <Index />',
       variant: 'primary',
-    })
+    }),
   )
 
   return (
